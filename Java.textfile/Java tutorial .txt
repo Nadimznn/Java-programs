@@ -1,0 +1,318 @@
+Day 1 (23.03.2018)
+
+Java Programming
+
+1. What is Java?
+
+Ans. Java is a High Level Programming Language, That's Originally developed by "Sun Micro-system" but currently owned by "Oracle".
+Java is Created by James Gosling "The Father Of Java."
+
+2.Why We should run Java/ Features of Java?
+
+Ans. Here some points:-
+i) Platform Based {(WORA)= Write once run AnyWhere}
+ii) Object  Oriented
+iii)  Support web based Application.
+iv) Robust (Error handling)
+v) Secure Programming Language.
+vi)Multi Threated. 
+
+
+Some Escape Sequence:-
+
+\b = BackSpace
+\t = Tab
+\n = new line
+\r = Carriage Return
+\' = Double quote
+\" = Single quote 
+\\ = BackSlash
+
+
+Comment:-
+Comments are use for side notes. Comments are ignored by the Compiler.
+Blank lines, space, tab, enter, are also ignored. 
+Three types of Comment and they are
+1. single line comment
+\\
+2.Multi line comment
+/*
+*/
+3. Documentation comment/** 
+ */
+Day 1 End. (23.03.2018) (1.20 AM)
+
+
+
+Day 2 (24.03.2018)
+
+Uses of Variable?
+
+i) We Can use 4 types of variable and they are Letter(A......Z, a.....z),Digit(0....9), Underscore(_), DollarSign($).
+ii) We can't use a number or digit At the first to get a variable name.
+iii)Any keyword, function name cant excess to the variable.
+iv) There is no space or gap in a variable name.
+
+Variable declaration syntax:-
+
+data_type Variable_Name
+
+
+
+Data_Type:=
+ 1. Primitive
+	i)Boolean(boolean)
+	ii)Numerical
+		a) Character (char)
+		b) Integral
+		    i)Integer(int, byte, short, long)
+			ii) Floating point(float, double)
+ 2.Non-primitive
+   i)String
+   ii)Array
+   
+   
+Format Specifier:=
+
+When we print something in program we use "printf" and some format specifier like as
+
+for boolean = %b,
+for char = %c,
+for integrals= %d,
+for floating point = %f.
+
+Day 2 end (24.03.2018)  3.27 amDay 1 (23.03.2018)
+
+
+
+
+Day 3 (25.03.2018)
+
+Operator,Operand, Expression
+
+At First we recognize that what is those?
+
+a+b=c (here, 'a' and 'b' is a operand, '+' is a operator, c is a constant, and whole(a+b=c) is called an expression)
+
+Types of Operator
+
+i) Arithmetic Operator
+ii) Logical Operator
+iii) Assignment Operator
+iv) Relational Operator
+v) Conditional Operator
+vi) Unary Operator
+vii) Bitwise Operator
+viii) Special Operator
+
+
+i) Arithmetic Operator:-
+
+(+)=Summation, (-)=Subtraction, (*)=Multiplication, (/)=division, (%)=remainder.
+
+ii)Assignment Operator:-
+
+(=) This is assign Sign.
+
+There are six types of assignment operator....
+
+(=)=Assign, (+=)=Plus assign, (-=)=Minus assign, (*=)= Multiplication assign, (/=)= Division assign, (%=) = Remainder assign.
+
+Day 3 (end)
+
+
+
+Day 4 (28.03.2018 Wednesday)
+
+iii)Unary Operator:=
+The unary operators operate on a single operand and following are the examples of Unary operators , The increment (++) and 
+decrement (--) operators. 
+The unary minus (-) operator. The logical not (!) operator.
+
+
+(+)= Unary Plus;
+(-)= Unary Minus;
+(++)= Increment;
+(--)= Decrement;
+
+
+Now Increment and Decrement both have two hand, that is-
+
+Prefix and Postfix.
+
+++a or --a is a prefix Increment or Decrement, In lieu of postfix is a++ or a--. 
+
+
+
+iv)Relational Operator:
+
+In computer science, a relational operator is a programming language construct or operator that tests or defines some kind of 
+relation between two entities.
+These include numerical equality (e.g., 5 = 5) and inequalities (e.g., 4 ≥ 3).
+
+There are six types of relational operators-
+
+1. > (Greater Than)
+2. < (Less than)
+3. >= (grater than or equal)
+4. <= (Less than or equal)
+5. == (Equal Equal)
+6. != (Not equal)
+ 
+Day 4 end(28.03.2018  5.30 Am)
+
+
+
+Day 5 (29.03.2018 Thursday)
+
+Statement-
+Any meaningful expression is called a statements. Ex. x=10;
+
+
+
+Control Statement-
+i)Selection(if, if else, Switch)
+ii)Looping/Iteration(for, While, Do while)
+iii)Jump(Break, continue, return)
+
+Even And Odd Method (Formula)
+
+For even = (Number%2==0) Then We get the output is Even. Otherwise,
+For Odd = (number%2==1) We get the output is odd.
+
+#Task for Today-
+1. Vowel Consonant
+2.Capital Small
+3.Maximum or minimum
+4.Leap year
+5.pass/fail
+
+Logical Operator-
+A logical operation is a special symbol or word which connects two or more phrases of information. It is most often used to 
+test whether a certain.
+ 
+relationship between the phrases is true or false.
+
+Symbol-
+&& = Logical and
+|| = Logical Or
+! = Logical Not
+
+Switch-
+Switch is a one kind of Control statements.
+*Switch statement provides a better alternative than large series of if-else if statements.
+*Switch statement executes one statement from multiple conditions.
+*keywords = (switch, case, break, default)
+
+
+Conditional Operator-
+Conditional Operator is called by Ternary Operator. Because Of it's three expressions.
+
+Symbol = (?, : )
+
+Syntax ( Expression1?expression2:expression3)
+
+Day 5 End (29.03.2018  6.15am)
+
+
+
+Day 6 (31.03.2018 Saturday)
+
+Math Class--
+https://docs.oracle.com/javase/7/docs/api/java/lang/Math.html For Searching the Math Class.
+
+Syntax-
+
+Math.(Object
+
+Day6 end
+
+
+
+Day 7 (01.04.2018 Saturday)
+
+Looping/Iteration
+
+Loop:-
+A loop statements allows us to execute a statement or group of statements multiple times.
+
+For Loop Syntax
+for (initialization;Condition;increment/decrement)
+
+ex: for(i=1;i<5;i++)
+    {
+	Statements
+     }
+
+While Loop:-
+
+Syntax-
+initialization;
+while(condition)	 
+{
+statements;
+increment/decrement;
+
+DoWhile loop:-
+
+Syntax-
+initialization;
+do{
+statements;
+increment/decrement;
+}
+while(condition);
+
+The main difference between while and do-while loop;
+Do-while loop execute at least one time if the condition is false, but while loop not.
+
+
+Jump control statement(Break, Continue)
+
+Break:-
+This statement use for break loop or switch statement. It works for only inner loop.
+
+syntax-
+break;
+
+Continue:-
+Continue statement skips the current iteration for a loop;(for,while,do-while)
+
+Syntax-
+continue;
+
+
+Code templates...
+
+Anything of programming can be templates....just write anything and cut this then go to tools, then options and finally we find
+the code templates options.
+
+Day 7 end(01.04.2018 3.12 am)
+
+
+Day 8 start(22.05.2018)
+
+Series=>
+
+In this lesson we know how to write a Fibonacci series program, like as....
+i) 1+2+3+....+n;
+ii) 1+3+5+7+.....n;
+iii) 1^2+2^2+3^2+.....n^2;
+iv)1*2*3*....*n;
+etc.
+
+
+ Factorial:-
+ 
+ 5!= 5*4*3*2*1 = 120
+ 
+ Formula:- fact=fact*i using for loop {for(i=n;i<=n;i--)} so this is decrement operator.
+
+
+ Day 8 end.
+ 
+ 
+ Day 9 (25.05.2018)
+ 
+Multiplication Table:
+
